@@ -1,7 +1,8 @@
-Puts "how many hours do you work?"
-Hours = gets.to_i
-Puts "how much do you make per hour?"
-Money = gets.to_i
-Puts "how many weeks did you work?"
-Weeks = gets.to_i
-Salary = Hours * Money * Weeks
+puts "how many hours do you work?"
+hours = gets.to_i
+puts "how much do you make per hour?"
+money = gets.to_i
+puts "how many weeks did you work?"
+weeks = gets.to_i
+salary = hours * money * weeks
+puts "you will earn #{salary}"
